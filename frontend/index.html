@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>This is FRONTEND</title>
-</head>
-<body>
-	<div id="root"></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body><h1>MENU</h1>
+    <form class="order">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" />
+      <label for="zip">Zip code</label>
+      <input type="number" id="zip" name="zip" />
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" />
+      <label for="street">Street</label>
+      <input type="text" id="street" name="street" />
+      <label for="housenumber">House number</label>
+      <input type="number" id="hn" name="housenumber" />
+      <label for="phonenumber">Phone number</label>
+      <input type="number" id="pn" name="phonenumber" />
+      <label for="email">E-mail</label>
+      <input type="text" id="e-mail" name="E-mail" placeholder="E-mail" />
+      <label for="Amount">Total</label>
+      <div id="total">0</div>EUR
+      <input type="submit" value="Submit order" />
+    </form>
+    <div class="Pizza">
+        <h2><b>Margherita</b> <span>2800,- Ft</span></h2>
+        <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+        <hr>
+        <img src="img/Margherita.jpeg">
+        <input type="number" id="amount"name="Amount"/>
+        <button class="Amount">Amount</button>
+        <button class="Add">Add to order</button>
+		<hr>
+        <h2><b>Formaggio</b> <span">3000,- Ft</span></h2>
+        <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+        <hr>
+        <img src="img/Formaggio.jpeg">
+        <input type="number" id="amount"name="Amount"/>
+        <button class="Amount">Amount</button>
+        <button class="Add">Add to order</button>
+        
+        <h2><b>Chicken</b> <span>3300,- Ft</span></h2>
+        <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+        <hr>
+        <img src="img/Chicken.jpeg">
+        <input type="number" id="amount"name="Amount"/>
+        <button class="Amount">Amount</button>
+        <button class="Add">Add to order</button>
+
+        <h2><b>Pineapple</b> <span >3000,- Ft</span></h2>
+        <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+        <hr>
+        <img src="img/pineapple.jpg">
+        <input type="number" id="amount"name="Amount"/>
+        <button class="Amount">Amount</button>
+        <button class="Add">Add to order</button>
+
+        <h2><b>Meat Town</b> <span>Hot! </span><span>3500,-Ft</span></h2>
+        <p>Fresh tomatoes, mozzarella, hot pepperoni, hot sausage, beef, chicken</p>
+        <hr>
+        <img src="img/Meat.jpeg">
+        <input type="number" id="amount"name="Amount"/>
+        <button class="Amount">Amount</button>
+        <button class="Add">Add to order</button>
+
+        <h2><b>Parma</b> <span >New</span><span">3600,-Ft</span></h2>
+        <p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+        <hr>
+        <img src="img/Parma.jpeg">
+        <input type="number" id="amount"name="Amount"/>
+        <button class="Amount">Amount</button>
+        <button class="Add">Add to order</button>
+
+        <h2><b>Seafood</b> <span >New  4000,-Ft</span></h2>
+        <p>Fresh Seafood, tomatoes, basil</p>
+        <hr>
+        <img src="img/Seafood.jpeg">
+        <input type="number" id="amount"name="Amount"/>
+        <button class="Amount">Amount</button>
+        <button class="Add">Add to order</button>
+      </div>	 
+  </body>
 </html>
